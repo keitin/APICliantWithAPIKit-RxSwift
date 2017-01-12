@@ -1,0 +1,6 @@
+framework module Pods_APICliantNext {
+  umbrella header "Pods-APICliantNext-umbrella.h"
+
+  export *
+  module * { export * }
+}

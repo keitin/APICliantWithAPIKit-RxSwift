@@ -1,0 +1,30 @@
+PODS:
+  - APIKit (2.0.4):
+    - Result (~> 2.1.1)
+  - Result (2.1.1)
+  - RxCocoa (2.5.0):
+    - RxSwift (~> 2.5)
+  - RxSwift (2.5.0)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - APIKit
+  - RxCocoa
+  - RxSwift
+  - SDWebImage
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  APIKit: 08089ab5da33faece57dfecc4bfe787a731e218b
+  Result: 822c879f145943320cc80a9a8372378e3d699fe4
+  RxCocoa: e1b1562e57a554d0fb2aabf9d71b637f177257c7
+  RxSwift: 402b41a50e922a0368fc14cb3bc9f4427920e8ae
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: c68ca87d484b8a26585e484ee7a1df4b68103266
+
+COCOAPODS: 1.0.0.beta.6

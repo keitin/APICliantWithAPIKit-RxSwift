@@ -1,0 +1,6 @@
+framework module Pods_APICliantNextTests {
+  umbrella header "Pods-APICliantNextTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

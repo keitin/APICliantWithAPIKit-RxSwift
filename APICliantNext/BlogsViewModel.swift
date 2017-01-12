@@ -19,8 +19,11 @@ class BlogsViewModel {
         Session.sendRequest(request) { result in
             switch result {
             case .Success(let blogs):
-                self.blogs.value = blogs
-
+                
+                for blog in blogs {
+                    self.blogs.value.append(blog)
+                }
+                
             case .Failure(let error):
                 print("error: \(error)")
             }

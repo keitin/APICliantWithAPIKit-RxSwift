@@ -24,6 +24,9 @@ class ViewController: UIViewController, UITableViewDelegate {
         registerCell()
         bind()
         viewModel.getBlogsInBackground(1, page: 1)
+        
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "add", style: .Done, target: self, action: #selector(ViewController.addBlog(_:)))
     }
     
     private func bind() {
@@ -45,6 +48,10 @@ class ViewController: UIViewController, UITableViewDelegate {
     
     private func registerCell() {
         tableView.registerNib(UINib(nibName: "BlogCell", bundle: nil), forCellReuseIdentifier: "BlogCell")
+    }
+    
+    func addBlog(sender: UIBarButtonItem) {
+        viewModel.getBlogsInBackground(1, page: 2)
     }
 
 }
